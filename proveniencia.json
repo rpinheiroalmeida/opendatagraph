@@ -1,0 +1,1171 @@
+[ {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 0",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 0",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 0",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 0",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 0",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 0",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 0",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 0",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 0",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 0",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 0",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 1",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 1",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 1",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 1",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 1",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 1",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 1",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 1",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 1",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 1",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 1",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 2",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 2",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 2",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 2",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 2",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 2",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 2",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 2",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 2",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 2",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 2",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 3",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 3",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 3",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 3",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 3",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 3",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 3",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 3",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 3",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 3",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 3",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 4",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 4",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 4",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 4",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 4",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 4",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 4",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 4",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 4",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 4",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 4",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 5",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 5",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 5",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 5",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 5",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 5",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 5",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 5",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 5",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 5",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 5",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 6",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 6",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 6",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 6",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 6",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 6",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 6",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 6",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 6",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 6",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 6",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 7",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 7",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 7",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 7",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 7",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 7",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 7",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 7",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 7",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 7",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 7",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 8",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 8",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 8",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 8",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 8",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 8",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 8",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 8",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 8",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 8",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 8",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+}, {
+  "extractionSoftware" : {
+    "id" : null,
+    "name" : "Extraction Software 9",
+    "organization" : "UnB",
+    "description" : "Data extraction from Graduation Systems",
+    "operador" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "unbGOLD" : {
+    "id" : null,
+    "name" : "UnBGOLD 9",
+    "organization" : "UnB",
+    "description" : "Perform semantic indexing of data",
+    "operator" : "Luiz Martins",
+    "notes" : "Not applicable"
+  },
+  "etl" : {
+    "id" : null,
+    "name" : "Enviroment ETL 9",
+    "program" : "Pentaho PDI",
+    "version" : "7.1",
+    "description" : "Extract, Clean of DB SIGRA",
+    "startAtTime" : "2018-03-10 20:21:27",
+    "endAtTime" : "2018-03-10 20:24:29",
+    "software" : "MS SQL Server",
+    "notes" : "Not applicable",
+    "extractionSoftwareWasAssociatedWith" : null,
+    "informationSystemsUsed" : null
+  },
+  "dataRequest" : {
+    "id" : null,
+    "name" : "Data Request 9",
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "description" : "CSV request for indexing",
+    "startAtTime" : "2018-03-10 20:30:23",
+    "endAtTime" : "2018-03-10 20:30:38",
+    "software" : "Java",
+    "request" : [ "http://servicos.unb.br/dadosabertos/departamentos", "http://servicos.unb.br/dadosabertos/cursos", "http://servicos.unb.br/dadosabertos/professores", "http://servicos.unb.br/dadosabertos/disciplinas", "http://servicos.unb.br/dadosabertos/oferta", "http://servicos.unb.br/dadosabertos/fluxo", "FOAF", "DC", "GCIEO", "LUBM", "AIISO" ],
+    "dwUsed" : null,
+    "unBGOLDWasAssociatedWith" : null
+  },
+  "semanticIndexing" : {
+    "id" : null,
+    "name" : "Semantic Indexing 9",
+    "controledVocabulary" : [ ],
+    "unBGOLDWasAssociatedWith" : null,
+    "csvUsed" : null,
+    "program" : "UnBGOLD",
+    "version" : "0.9 Beta",
+    "startAtTime" : "2018-03-10 20:32:23",
+    "endAtTime" : "2018-03-10 20:32:54",
+    "software" : "Application Server",
+    "description" : "Uses CSV for indexing and generates RDF"
+  },
+  "dataPublication" : {
+    "id" : null,
+    "name" : "Data Publication 9",
+    "program" : "CKAN",
+    "version" : "0.9 Beta",
+    "description" : "Publication in the CKAN instance",
+    "startAtTime" : "2018-03-10 20:35:20",
+    "endAtTime" : "2018-03-10 20:36:20",
+    "software" : "CKAN",
+    "ckanInstance" : "Dados Abertos da UnB",
+    "unBGOLDWasAssociatedWith" : null,
+    "rdfUsed" : null
+  },
+  "informationSystems" : {
+    "id" : null,
+    "name" : "Information Systems 9",
+    "size" : "15 GB",
+    "description" : "DB of graduation Systems",
+    "location" : "SIGRA",
+    "notes" : "Not Applicable"
+  },
+  "dw" : {
+    "id" : null,
+    "name" : "DW 9",
+    "size" : "4,2 GB",
+    "description" : "DB generated from the ETL process on SIGRA",
+    "location" : "MS SQL Server",
+    "notes" : "Not Applicable",
+    "etlWasGeneratedBy" : null,
+    "informationSystemsWasDerivedFrom" : null
+  },
+  "csv" : {
+    "id" : null,
+    "name" : "CSV/JSON 9",
+    "size" : "112 k",
+    "description" : "CSV file extracted",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "dataRequestWasGeneratedBy" : null,
+    "dwWasDerivedFrom" : null
+  },
+  "rdf" : {
+    "id" : null,
+    "name" : "RDF 9",
+    "size" : "140 k",
+    "description" : "RDF file generated",
+    "location" : "Application Server",
+    "notes" : "Not Applicable",
+    "semanticIndexingWasGeneratedBy" : null,
+    "csvWasDerivedFrom" : null
+  },
+  "ckan" : {
+    "id" : null,
+    "name" : "CKAN 9",
+    "size" : "Not Applicable",
+    "description" : "Data published on the plataform",
+    "location" : "CKAN",
+    "notes" : "Not Applicable",
+    "dataPublicationWasGeneratedBy" : null,
+    "rdfWasDerivedFrom" : null
+  }
+} ]
