@@ -1,6 +1,5 @@
 package com.unb.opendatagraph.service;
 
-import com.unb.opendatagraph.domain.CKAN;
 import com.unb.opendatagraph.domain.Proveniencia;
 import com.unb.opendatagraph.repository.*;
 import org.springframework.stereotype.Service;
