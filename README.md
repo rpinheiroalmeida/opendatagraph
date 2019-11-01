@@ -43,7 +43,7 @@ The variable `size`  is the array's size that will be generated.
 For example:
 
 ```
-curl -i -X POST http://localhost:8080/create`
+curl -i -X POST http://localhost:8080/create
 ```
 
  
