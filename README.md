@@ -2,6 +2,10 @@
 
 To run the application execute the follows commands:
 
+## Requitement:
+It's necessary have Docker installed.
+
+
 ## Starting a neo4j server
 
 The command bellow download a Neo4J docker image and start in the port 7687.
@@ -9,6 +13,7 @@ The command bellow download a Neo4J docker image and start in the port 7687.
 ```
 make run-neo4j
 ```
+
 
 To see the Neo4J Browser, access the URL:
 
