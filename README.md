@@ -41,6 +41,12 @@ The application is accessible in the url:
 
 The variable `size`  is the array's size that will be generated.
 
+For example:
+
+```
+curl -i -X POST -H "Content-Type:application/json" -d '{}' http://localhost:8080/generate-json-file\?size\=1
+```
+
 ## To save the data in the Neo4J database, execute a POST command for the url:
 
 * http://localhost:8080/create
